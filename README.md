@@ -155,3 +155,5 @@ The location of pyrealsense2 library is:
 **/home/pi/librealsense/build/wrappers/python**
 
 hence all programs should be in this folder
+
+**Paste the main file named t265_to_mavlink.py in this folder and run.**
