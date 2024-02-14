@@ -1,4 +1,4 @@
-# Required Hardware:- 
+# Required Hardware:
 - Drone with Ardupilot Firmware
 - Raspberry Pi4 Model B 8GB RAM with debian bullseye 32 bit OS
 - Intel Realsense T265 
