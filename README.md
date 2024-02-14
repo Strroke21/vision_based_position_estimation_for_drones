@@ -1,5 +1,10 @@
+# Required Hardware:- 
+- Drone with Ardupilot Firmware
+- Raspberry Pi4 Model B 8GB RAM
+- Intel Realsense T265 
+
 # Note: 
-This procedure is given for realsense camera interface with Raspbian 32 bit OS.
+This procedure is given for Realsense camera interface with Raspbian 32 bit OS.
 
 ## Pre-install Requirements
 
