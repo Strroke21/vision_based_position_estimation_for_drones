@@ -1,3 +1,6 @@
+# Note: 
+This procedure is given for realsense camera interface with Raspbian 32 bit OS.
+
 ## Pre-install Requirements
 
 - Start with updating, upgrading, and installing dependencies and tools:
