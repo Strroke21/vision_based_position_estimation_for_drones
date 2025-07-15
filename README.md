@@ -105,12 +105,11 @@ cmake .. -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=Release -DFORCE_LIBUVC=true`
 
 **before this step ensure that you link these libraries below “include the following lines” in CMakeList.txt file in librealsense:** 
 
->> target_link_libraries(${LRS_TARGET} PRIVATE GLU)
->> 
->>target_compile_options(${LRS_TARGET} PRIVATE -std=c++11)
->> 
->>target_link_libraries(${LRS_TARGET} PRIVATE -latomic)
->> 
+```
+target_link_libraries(${LRS_TARGET} PRIVATE GLU)
+target_compile_options(${LRS_TARGET} PRIVATE -std=c++11)
+target_link_libraries(${LRS_TARGET} PRIVATE -latomic)
+```
 
 `make -j1
 sudo make install`
